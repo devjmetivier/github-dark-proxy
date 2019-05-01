@@ -1,3 +1,4 @@
+// Derived from @rauchg: https://zeit.co/rauchg/gh-dark/aq1vx8yz5
 const fetch = require('node-fetch');
 
 module.exports = async (req, res) => {

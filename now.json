@@ -1,12 +1,22 @@
 {
 	"version": 2,
+	"routes": [
+		{
+			"src": "/dark\\.css",
+			"dest": "dark.css"
+		},
+		{
+			"src": "/.*",
+			"dest": "index.js"
+		}
+	],
 	"builds": [
 		{
-			"src": "./index.js",
+			"src": "index.js",
 			"use": "@now/node"
 		},
 		{
-			"src": "./dark.css",
+			"src": "dark.css",
 			"use": "@now/static"
 		}
 	]

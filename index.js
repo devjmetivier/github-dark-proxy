@@ -7,6 +7,5 @@ module.exports = async (req, res) => {
       '</head>',
       '<link media="all" href="/dark.css" rel="stylesheet" /></head>'
     );
-
   res.end(html);
 };

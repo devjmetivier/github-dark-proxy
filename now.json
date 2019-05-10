@@ -1,5 +1,12 @@
 {
 	"version": 2,
+	"public": true,
+	"alias": ["gh-dark.tobea.dev"],
+	"github": {
+		"autoAlias": false,
+		"silent": true
+	},
+	"regions": ["cle1"],
 	"routes": [
 		{
 			"src": "/dark\\.css",

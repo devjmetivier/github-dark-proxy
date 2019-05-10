@@ -3,7 +3,7 @@
 	"public": true,
 	"alias": ["gh-dark.tobea.dev"],
 	"github": {
-		"autoAlias": false,
+		"autoAlias": true,
 		"silent": true
 	},
 	"regions": ["cle1"],
